@@ -1,0 +1,81 @@
+.header-container{
+    margin: 8px 400px 200px 320px;
+    display: flex;
+    justify-content: space space-between;
+ 
+}
+.logo-search-cont{
+    width: 145px;
+    height: 145px;
+
+}
+.logo-search-cont img{
+    width: 145px;
+    height: 145px;
+
+}
+.search-cont{
+    width: 300px;
+    height: 30px;
+    background-color: #a8b2e2;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    color: #131111;
+
+}
+.search-cont.icon{
+    width: 28px;
+    height: 28px;
+    margin-right:  8px; 
+}
+.search-cont input{
+    width: 350px;
+    height: 41px;
+    border-radius: 20.5px;
+    background-color: #a8b2e2;
+}
+.search-cont input:focus{
+    outline: none;
+}
+.contact-social-cont{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.contact-social-cont .contact{
+    display: flex;
+    align-items: center;
+}
+.contact-social-cont .contact p{
+    font-size: 18px;
+    font-size: 600;
+    margin-left: 17px;
+}
+.contact-social-cont .contact span{
+    font-weight: 500;
+}
+.social-icon-cont{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.headerIcon{
+    width:58px ;
+    height: 58px;
+    border-radius: 50px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    background-color: #a8b2e2;
+    transition-duration: 5s;
+}
+.headerIcon-size{
+    width: 30px;
+    height: 30px;
+}
+.headerIcon:hover{
+    background-color: #a8b2e2;
+    transform: scale(1,1);
+}
